@@ -1,0 +1,41 @@
+html{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: medium;
+    background-color: beige;
+    border: 15px solid maroon;
+}
+header {
+    text-align: center;
+    height: 20%;
+    margin-bottom: 15%;
+    margin-top: 10%;
+}
+.container1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20%;
+    font-size: 2em;
+    
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20%;
+    color: red;
+}
+
+.container3{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20%;
+    color: black;
+}
+button{
+    color: red;
+}
+.container3>div{
+    background-color: red;
+}
